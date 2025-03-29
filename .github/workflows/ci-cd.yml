@@ -17,5 +17,5 @@ jobs:
 
       - name: Build and Push Docker Image
         run: |
-          docker build -t jaskaran321/facerecognition:latest ./face_recognation
+          docker build -t jaskaran321/facerecognition:latest .
           docker push jaskaran321/facerecognition:latest
